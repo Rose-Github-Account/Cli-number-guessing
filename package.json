@@ -1,0 +1,24 @@
+{
+  "name": "aqdas-cli-number-guessing",
+  "version": "2.0.1",
+  "description": "A cli number guessing game.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "aqdas-cli-number-guessing": "^2.0.1",
+    "inquirer": "^9.2.16"
+  }
+}
